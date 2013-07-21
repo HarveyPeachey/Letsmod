@@ -1,17 +1,21 @@
 package theruler333.lmm.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
+import theruler333.lmm.lib.BlockConstructor;
 import theruler333.lmm.lib.BlockIDs;
-theruler333.lmm.lib.BlockStrings
+
+
 
 
 public class Blocks {
     
-    //CobbleStone Dye Blocks
-    public final static Block cobbleBlack;
+    
+    public static Block cobbleBlack;
     public final static Block cobbleBrown;
     public final static Block cobbleCactus;
     public final static Block cobbleCyan;
@@ -32,7 +36,12 @@ public class Blocks {
     
     public static void init() {
         
-        cobbleBlack = new BlockCobbleBlack(BlockIDs.Cobblestone_black);
+        cobbleBlack = new BlockConstructor(BlockIDs.Cobblestone_black, Material.rock)
+        .setHardness(0.5F).setStepSound(Block.soundStoneFootstep)
+        .setUnlocalizedName("cobbleBlack").setCreativeTab(CreativeTabs.tabBlock);
+        
+        GameRegistry.registerBlock(cobbleBlack, "Black Cobblestone");
+        LanguageRegistry.addName(cobbleBlack, "Black Cobblestone");
         
         
     }
