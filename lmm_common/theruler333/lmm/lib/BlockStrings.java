@@ -1,5 +1,7 @@
 package theruler333.lmm.lib;
 
+import net.minecraft.block.Block;
+
 
 
 
@@ -23,5 +25,3 @@ public class BlockStrings {
     public static final String Cobblestone_white = "cobbleWhite";
     public static final String Cobblestone_yellow = "cobbleYellow";
     
-
-}
