@@ -31,7 +31,6 @@ public class Dye_Cobblestone {
     @Init
     public void load(FMLInitializationEvent event) {
             proxy.registerRenderers();
-            Blocks.init();
     }
    
     @PostInit
