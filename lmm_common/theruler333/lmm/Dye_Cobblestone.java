@@ -1,6 +1,7 @@
 package theruler333.lmm;
 
-import theruler333.lmm.block.Blocks;
+//import theruler333.lmm.block.Blocks;
+import theruler333.lmm.lib.Reference;
 import theruler333.lmm.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
@@ -11,10 +12,10 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.network.NetworkMod;
+//import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod( modid = "Dye Cobblestone", name = "Dye Cobblestone", version = "0.0.1")
-@NetworkMod(clientSideRequired=true, serverSideRequired=false)
+@Mod( modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+//@NetworkMod(clientSideRequired=true, serverSideRequired=false)
 public class Dye_Cobblestone {
 
     @Instance

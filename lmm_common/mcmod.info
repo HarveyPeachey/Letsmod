@@ -1,0 +1,18 @@
+[
+{
+  "modid": "Dye Stone Dye",
+  "name": "Coloured Stone",
+  "description": "Allowing crappy looking stone and cobblestone to be recoloured and allow you to create buildings that look like rainbow coloured unicorn turds. ",
+  "version": "0.0.1",
+  "credits": "Created by Kazi2015 and TheRuler333",
+  "logoFile": "/coloured stone/common/316990_2081469079226_388906901_n.jpg",
+  "mcversion": "1.5.2",
+  "url": "",
+  "updateUrl": "",
+  "authors": [ "Kazi2015","TheRuler333",],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+         "mod_MinecraftForge"
+}
+]
