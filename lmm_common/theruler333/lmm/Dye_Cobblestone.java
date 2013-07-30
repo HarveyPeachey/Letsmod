@@ -1,14 +1,8 @@
 package theruler333.lmm;
 
-//import theruler333.lmm.block.Blocks;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
-import theruler333.lmm.block.BlockConstructor;
 import theruler333.lmm.block.Cobble_Black;
-import theruler333.lmm.lib.BlockIDs;
 import theruler333.lmm.lib.Reference;
 import theruler333.lmm.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
@@ -28,9 +22,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 //@NetworkMod(clientSideRequired=true, serverSideRequired=false)
 public class Dye_Cobblestone 
 {
-    public final Block Black_Cobblestone = new BlockConstructor(BlockIDs.Cobblestone_black, Material.rock)
-    .setHardness(2.0F) .setStepSound(Block.soundStoneFootstep)
-    .setUnlocalizedName("Black Cobblestone") .setCreativeTab(CreativeTabs.tabBlock);
+    public final Block Black_Cobblestone = new Cobble_Black(0, null);
 
 
     @Instance
@@ -45,7 +37,7 @@ public class Dye_Cobblestone
 
     @PreInit
     public void preInit(FMLPreInitializationEvent event) {
-        Cobble_Black.Blocks();
+   
     }
    
     @Init
