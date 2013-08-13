@@ -15,12 +15,12 @@ public class Cobble_Light_grey extends Block {
                 super(BlockIDs.Cobblestone_light_grey, Material.rock);
                 setHardness(2.0F);
                 setStepSound(Block.soundStoneFootstep);
-                setUnlocalizedName("Light_grey Cobblestone");
+                setUnlocalizedName("Light Grey Cobblestone");
                 setCreativeTab(CreativeTabs.tabBlock);
         }
         
         public void registerIcons(IconRegister iconRegister) {
-            this.blockIcon = iconRegister.registerIcon("lmm:cobblestone light_grey");
+            this.blockIcon = iconRegister.registerIcon("lmm:cobblestone light grey");
         }
 
 
