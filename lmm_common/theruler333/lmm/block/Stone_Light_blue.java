@@ -15,12 +15,12 @@ public class Stone_Light_blue extends Block {
                 super(BlockIDs.Stone_light_blue, Material.rock);
                 setHardness(2.0F);
                 setStepSound(Block.soundStoneFootstep);
-                setUnlocalizedName("Light_blue Stone");
+                setUnlocalizedName("Light Blue Stone");
                 setCreativeTab(CreativeTabs.tabBlock);
         }
         
         public void registerIcons(IconRegister iconRegister) {
-            this.blockIcon = iconRegister.registerIcon("lmm:stone light_blue");
+            this.blockIcon = iconRegister.registerIcon("lmm:stone light blue");
         }
 
 
