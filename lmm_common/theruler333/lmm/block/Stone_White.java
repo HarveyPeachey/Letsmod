@@ -1,5 +1,7 @@
 package theruler333.lmm.block;
 
+import java.util.Random;
+
 import theruler333.lmm.lib.BlockIDs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -23,6 +25,10 @@ public class Stone_White extends Block {
             this.blockIcon = iconRegister.registerIcon("lmm:stone white");
         }
 
+        public int idDropped(int par1, Random par2Random, int par3)
+        {
+            return BlockIDs.Cobblestone_white;
+        }
 
 
 } 
