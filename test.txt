@@ -1,4 +1,4 @@
-name,lat,long,icon
+name,lat,lng,icon
 Lewi Jones,53.70497,-0.91433,gasIcon
 Gary Kennedy,52.9228,-1.2015,sparkyIcon
 Jardin Main,52.90447,-1.28387,gasIcon
