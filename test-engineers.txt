@@ -1,4 +1,4 @@
-name,lat,lng,icon
-Lewi Jones,53.70497,-0.91433,gas.png
-Gary Kennedy,52.9228,-1.2015,sparky.png
-Jardin Main,52.90447,-1.28387,gas.png
+name,lat,lng,icon,description
+Lewi Jones,53.70497,-0.91433,gas.png,gas
+Gary Kennedy,52.9228,-1.2015,sparky.png,sparky
+Jardin Main,52.90447,-1.28387,gas.png,gas
