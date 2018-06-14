@@ -1,4 +1,4 @@
-lat,lng,radius,Description,Postcode,fillColor:,,,,,,,,,,
+lat,lng,radius,Description,Postcode,fillColor,,,,,,,,,,
 53.141104,-1.5496146,1000,Enable,DE4 3FL,#0061ff,,,,,,,,,,
 53.098582,-1.3754879,1000,Enable,DE55 7JP,#0061ff,,,,,,,,,,
 53.164358,-1.1946092,1000,Enable,NG19 8AJ,#0061ff,,,,,,,,,,
